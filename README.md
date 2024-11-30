@@ -12,6 +12,8 @@ It can be compiled but I did not test it. I added `sun8iw10p1-618.dts` and `618_
 
 [gcc-linaro-arm-linux-gnueabihf-4.9-2014.09](https://releases.linaro.org/archive/14.09/components/toolchain/binaries/gcc-linaro-arm-linux-gnueabihf-4.9-2014.09_linux.tar.xz) toolchain is required to build. Stock kernel is built by it.
 
+([gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf.tar.xz](https://releases.linaro.org/archive/15.05/components/toolchain/binaries/arm-linux-gnueabihf/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf.tar.xz) can be used too, 32bit libraries should not be needed.) 
+
 ### Arch Linux(multilib repository required):
 
     sudo pacman -Sy bc inetutils lib32-glibc gcc-libs lib32-gcc-libs lib32-zlib mercurial uboot-tools
